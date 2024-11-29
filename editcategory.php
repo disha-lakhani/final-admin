@@ -1,4 +1,13 @@
 <?php
+session_start();
+
+if (!isset($_SESSION['user_id'])) {
+    header('Location: login.php');
+    exit();
+}
+?>
+
+<?php
 require 'db.php';
 
 if (isset($_GET['cid']) && !empty($_GET['cid'])) {

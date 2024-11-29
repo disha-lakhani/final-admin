@@ -9,7 +9,6 @@ $(document).ready(function () {
 
         var isValid = true;
 
-
         function showError(elementId, inputGroup) {
             $(elementId).show();
             $(inputGroup).parent().css("margin-bottom", "0");
@@ -21,14 +20,12 @@ $(document).ready(function () {
             $(inputGroup).parent().css("margin-bottom", "1rem");
         }
 
-
         var cname = $("#categoryName").val().trim();
         if (cname === "") {
             showError("#demo1", "#categoryName");
         } else {
             hideError("#demo1", "#categoryName");
         }
-
 
         var cdes = $("#categoryDescription").val().trim();
         if (cdes === "") {
@@ -40,7 +37,6 @@ $(document).ready(function () {
         if (!isValid) {
             return;
         }
-
 
         $.ajax({
             url: "insert_category.php",
@@ -65,5 +61,5 @@ $(document).ready(function () {
             },
         });
     });
-   
+
 });

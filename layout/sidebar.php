@@ -110,13 +110,15 @@
                                     <i class="ni ni-archive-2 text-red"></i> All Orders
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="completeorder.php" class="nav-link">
+                                    <i class="ni ni-archive-2 text-red"></i> Completed Orders
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </li>
 
-                <!-- Dropdown: Reports -->
-               
-                <!-- Other Links -->
                 <li class="nav-item">
                     <a class="nav-link" href="Profile.php">
                         <i class="ni ni-single-02 text-yellow"></i> User Profile
@@ -125,11 +127,6 @@
                 <li class="nav-item">
 
                 <a href="#" id="logoutBtn" class="btn btn-sm btn-primary log">Logout</a>
-
-                    <!-- <a class="nav-link" id="logoutButton" href="">
-                        <i class="ni ni-bullet-list-67 text-red"></i> Logout
-                    </a> -->
-                    <!-- <button id="logoutButton" class="nav-link"><i class="ni ni-bullet-list-67 text-red"></i> Logout</button> -->
                 </li>
             </ul>
         </div>

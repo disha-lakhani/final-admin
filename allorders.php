@@ -44,10 +44,9 @@ include 'layout/header.php'
           <table class="table align-items-center table-flush">
             <thead class="thead-dark">
               <tr>
+                <th scope="col">Order Id</th>
                 <th scope="col">Customer Name</th>
-                <th scope="col">Product Count</th>
-                <th scope="col">Total Price</th>
-                <th scope="col">Order Date</th>
+                <th scope="col">Status</th>   
                 <th scope="col">Action</th>
               </tr>
             </thead>
@@ -58,8 +57,26 @@ include 'layout/header.php'
         </div>
         <div class="card-footer py-4 bg-default">
           <nav aria-label="...">
-            <ul class="pagination justify-content-end mb-0" id="pagination">
-             
+            <ul class="pagination justify-content-end mb-0">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">
+                  <i class="fas fa-angle-left"></i>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="fas fa-angle-right"></i>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

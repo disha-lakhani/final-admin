@@ -79,11 +79,11 @@ if (isset($_SESSION['user_id'])) {
 }
 
 .quantity-container button {
-    width: 30px; /* Adjust width for the buttons */
+    width: 30px;
 }
 
 .quantity-container input {
-    width: 50px; 
+    width: 60px; 
     text-align: center; 
     color: black;
 

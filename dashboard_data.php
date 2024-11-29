@@ -24,6 +24,18 @@ if ($customerRow = mysqli_fetch_assoc($customerResult)) {
     $response['total_customers'] = $customerRow['total_customers'];
 }
 
+$orderQuery = "SELECT COUNT(*) AS total_orders FROM order_items";
+$orderResult = mysqli_query($conn, $orderQuery);
+if (!$orderResult) {
+    die('Query Failed: ' . mysqli_error($conn));
+}
+if ($orderRow = mysqli_fetch_assoc($orderResult)) {
+    $response['total_orders'] = $orderRow['total_orders'];
+} else {
+    $response['total_orders'] = 0; // Fallback if no rows are returned
+}
+
+
 // Close connection
 mysqli_close($conn);
 

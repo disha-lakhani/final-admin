@@ -96,10 +96,10 @@ $(document).ready(function () {
             return;
         }
 
-        // Prepare form data for AJAX
+
         var formData = new FormData(this);
 
-        // AJAX request to insert product
+
         $.ajax({
             url: 'insert_product.php',
             type: 'POST',

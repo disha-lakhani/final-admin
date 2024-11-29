@@ -1,0 +1,30 @@
+Processing order_id: 5
+Error: Order ID 5 does not exist.
+Processing order_id: 4
+Error: Order ID 4 does not exist.
+Processing order_id: 5
+Error: Order ID 5 does not exist.
+Processing order_id: 4
+Error: Order ID 4 does not exist.
+Processing order_id: 7
+Error: Order ID 7 does not exist.
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 4
+Error: Error deleting from order_items: Unknown column 'order_id' in 'where clause'
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 4
+Processing order_id: 5
+Error: Order ID 5 does not exist.
+Processing order_id: 5
+Error: Order ID 5 does not exist.
+Processing order_id: 5
+Processing order_id: 5
+Processing order_id: 7
+Processing order_id: 8
